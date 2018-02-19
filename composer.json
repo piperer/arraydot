@@ -1,0 +1,21 @@
+{
+    "name": "cipherpixel/arraydot",
+    "description": "Functions to handle multidimensional arrays and dots.",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Michael Benner",
+            "email": "mschumi9@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CipherPixel\\cpgin\\": "src/"
+        },
+        "files": ["src/ArrayDotHelpers.php"]
+    }
+}
